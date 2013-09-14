@@ -1,0 +1,53 @@
+/*
+Syntax error: File to import not found or unreadable: bootstrap.
+              Load path: /Users/rajpathi/ruby/rubyOnRailsTutorial/sample_app
+        on line 1 of app/assets/stylesheets/custom.css.scss
+
+1: @import "bootstrap";
+2: 
+3: /* Universal *\/
+4: 
+5: html {
+6: 	overflow-y:scroll;
+
+Backtrace:
+app/assets/stylesheets/custom.css.scss:1
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:235:in `watch'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/plugin.rb:107:in `method_missing'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/exec.rb:455:in `watch_or_update'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/exec.rb:318:in `process_result'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/exec.rb:41:in `parse'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/lib/sass/exec.rb:21:in `parse!'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.10/bin/sass:9:in `<top (required)>'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/bin/sass:23:in `load'
+/Users/rajpathi/.rvm/gems/ruby-2.0.0-p0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bootstrap.\A               Load path: /Users/rajpathi/ruby/rubyOnRailsTutorial/sample_app\A         on line 1 of app/assets/stylesheets/custom.css.scss\A \A 1: @import \"bootstrap\";\A 2: \A 3: /* Universal */\A 4: \A 5: html {\A 6: 	overflow-y:scroll;"; }
